@@ -29,8 +29,7 @@ def generate_sine_wave(freq, sample_rate, duration):
 def one_sided_fft(time_arr, signal):
     """
         Takes the 1-Sided fft of a signal given the
-        time step period (Ts)
-        **note to plot, take the abs() of signal_fft
+        time series vector and signal
 
         Args
         ----
@@ -59,10 +58,7 @@ def one_sided_fft(time_arr, signal):
 def two_sided_fft(time_arr, signal):
     """
         Takes the 2-Sided fft of a signal given the
-        time step period (Ts)
-        Takes the 1-Sided fft of a signal given the
-        time step period (Ts)
-        **note to plot, take the abs() of signal_fft
+        time series vector and signal
 
         Args
         ----
